@@ -1,6 +1,4 @@
 # build the hello-deocker-world binary on x86_64
-# #
-#
 
 all: dockerimage
 
