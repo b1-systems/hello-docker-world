@@ -1,11 +1,12 @@
 # Docker image of a smallest "Hello Docker World App"
 
-a smallest docker example used for testing and training
+A smallest docker example used for testing and training.
+
 This Docker images demonstrate how to use a smallest docker image print out the "Hello Docker World!"
 
 ## Build the hello-docker-world app as an docker image
 
-make
+use the command "make" to build all stuff
 
 ## Run the container
 
