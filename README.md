@@ -6,7 +6,7 @@ It is used for testing and training.
 
 ## Build the hello-docker-world app
 
-**Note:** You will need docker a version higher or equal to 17.05 use the multistate build.
+**Note:** You will need docker a version higher or equal to 17.05 use the multi-stage build.
 
 ```
 docker build -t hello-docker-world .
