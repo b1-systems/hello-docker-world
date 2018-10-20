@@ -10,7 +10,7 @@ _start:
     movl $4,%eax      # Syscall-ID 4 (= sys_write)
     movl $1,%ebx      # Ausgabe-Dateideskriptor stdout (= 1)
     movl $s,%ecx      # Adresse des ersten Zeichens der Zeichenkette
-    movl $19,%edx     # Länge der Zeichenkette (12 Zeichen)
+    movl $19,%edx     # Länge der Zeichenkette (19 Zeichen)
     int $0x80         # Softwareinterrupt 0x80, um Syscall (write(1,s,12)) auszuführen
 
     movl $1,%eax      # Syscall-ID 1 (= sys_exit)
